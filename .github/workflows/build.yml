@@ -21,6 +21,11 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+        
+    - name: Install gh-pages
+      run: |
+        npm install -g gh-pages --save-dev
+
 
     - name: Build
       run: |
