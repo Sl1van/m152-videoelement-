@@ -1,8 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-// require   sample from './';
-
 
 function App() {
   return (
